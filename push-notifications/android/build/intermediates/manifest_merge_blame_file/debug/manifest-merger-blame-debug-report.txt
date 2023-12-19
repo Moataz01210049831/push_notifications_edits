@@ -1,0 +1,28 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.capacitorjs.plugins.pushnotifications" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="22"
+6-->/Users/portal/Desktop/alami_edits/Po_eServices_Ionic/node_modules/@capacitor/push-notifications/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="33" />
+7-->/Users/portal/Desktop/alami_edits/Po_eServices_Ionic/node_modules/@capacitor/push-notifications/android/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/Users/portal/Desktop/alami_edits/Po_eServices_Ionic/node_modules/@capacitor/push-notifications/android/src/main/AndroidManifest.xml:2:5-8:19
+10        <service
+10-->/Users/portal/Desktop/alami_edits/Po_eServices_Ionic/node_modules/@capacitor/push-notifications/android/src/main/AndroidManifest.xml:3:9-7:19
+11            android:name="com.capacitorjs.plugins.pushnotifications.MessagingService"
+11-->/Users/portal/Desktop/alami_edits/Po_eServices_Ionic/node_modules/@capacitor/push-notifications/android/src/main/AndroidManifest.xml:3:18-91
+12            android:exported="false" >
+12-->/Users/portal/Desktop/alami_edits/Po_eServices_Ionic/node_modules/@capacitor/push-notifications/android/src/main/AndroidManifest.xml:3:92-116
+13            <intent-filter>
+13-->/Users/portal/Desktop/alami_edits/Po_eServices_Ionic/node_modules/@capacitor/push-notifications/android/src/main/AndroidManifest.xml:4:13-6:29
+14                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+14-->/Users/portal/Desktop/alami_edits/Po_eServices_Ionic/node_modules/@capacitor/push-notifications/android/src/main/AndroidManifest.xml:5:17-78
+14-->/Users/portal/Desktop/alami_edits/Po_eServices_Ionic/node_modules/@capacitor/push-notifications/android/src/main/AndroidManifest.xml:5:25-75
+15            </intent-filter>
+16        </service>
+17    </application>
+18
+19</manifest>
